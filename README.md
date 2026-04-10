@@ -12,7 +12,7 @@ La obra *Sensaciones mixtas* (1916) pertenece al movimiento suprematista, desarr
 
 En esta obra se observan múltiples figuras geométricas superpuestas, con predominancia de colores como **rojo, negro, amarillo y azul**, organizadas en una composición dinámica y equilibrada.
 
----
+
 
 ## Proceso de trabajo
 ## Metodología utilizada
@@ -47,17 +47,19 @@ Este cruce entre ambos métodos permitió reducir errores y mejorar la fidelidad
 - Organicé el código según orden de dibujo (de fondo a frente)
 - Realicé iteraciones constantes comparando con la imagen original
 
-### Conclusión
+### Conclusión de pj5s
 
-Este ejercicio permitió comprender cómo una imagen puede descomponerse en elementos básicos y traducirse a código. No se trató solo de copiar la imagen, sino de interpretarla, analizar su estructura y reconstruirla digitalmente.
-La combinación de métodos análogos y digitales fue clave: el trabajo manual permitió entender la composición, mientras que las herramientas digitales aportaron precisión. Esto evidencia que el proceso no es automático, sino interpretativo y progresivo.
-El desarrollo fue iterativo: observar, medir, programar, corregir y ajustar, lo que permitió acercarse gradualmente a una versión fiel de la obra original.
+Este ejercicio permitió entender cómo una imagen se puede separar en partes básicas y llevar a código. 
+No se trató solo de copiar la imagen sino de interpretarla, analizar su forma y reconstruirla de manera digital.
+La mezcla de métodos análogos y digitales fue importante,  el trabajo manual ayudó a comprender la composición y las herramientas digitales dieron mayor precisión. Esto demuestra que el proceso no es automático, sino que requiere interpretación y avance paso a paso.
+El desarrollo fue por etapas: observar, medir, programar y corregir.
+Así fue posible acercarse poco a poco a una versión más fiel de la obra original.
 
 ### Elección de la obra
 
 Elegí esta obra porque representa claramente los principios del suprematismo: uso de figuras simples, composición abstracta y énfasis en el color. Además, su estructura geométrica la hacía adecuada para ser traducida a código mediante p5.js.
 
----
+
 
 ### Análisis de la obra
 
@@ -70,7 +72,6 @@ Para analizar la imagen identifiqué:
 
 También observé que varias figuras están rotadas, lo que implicó usar transformaciones en el código.
 
----
 
 ### Traducción a coordenadas (X, Y)
 
@@ -81,7 +82,10 @@ Luego:
 - Ubique cada figura usando referencias visuales  
 - Usé `rect()`, `ellipse()` y `line()`  
 - Apliqué `translate()` y `rotate()` para las figuras inclinadas  
-- Ajusté posiciones manualmente hasta lograr una composición similar  
+- Ajusté posiciones manualmente hasta lograr una composición similar
+
+-------
+  
 ## Documentación visual
 ### Imagen original
 ![kasimir](https://github.com/user-attachments/assets/a6f4bae4-5711-4a94-b382-eecd77ea37bb)
@@ -92,5 +96,17 @@ Luego:
 *LINK DE P5JS*
 
 https://editor.p5js.org/vale.alvarez/sketches/l_cPQb13t
+
+### Reflexión del proyecto completo 
+
+Durante el proceso de trabajo, enfrenté varias dificultades, especialmente con el uso de códigos y coordenadas en p5.js.
+
+Me costó bastante comprender cómo posicionar correctamente los elementos, por lo que muchas veces tuve que hacerlo “al ojo”, aprendiendo a partir del ensayo y error.
+Otro desafío fue la organización de los archivos, ya que no logré crear una carpeta con los links de imágenes del proceso, lo que hizo que quedaran separadas.
+
+Además, la elección de colores también fue compleja ya que me costó decidir combinaciones que funcionaran bien en el resultado final.
+
+En GitHub también se me hizo complicado al principio, aunque fue más llevadero porque había más tutoriales disponibles que me ayudaron a avanzar. 
+Por otro lado, en p5.js trabajé constantemente apoyándome en la referencia oficial, lo que fue clave para poder resolver dudas y seguir desarrollando el proyecto a pesar de estas dificultades, considero que fue una experiencia de aprendizaje muy valiosa, a través de los errores fui entendiendo mejor el funcionamiento de las herramientas y desarrollando mayor criterio tanto técnico como visual.
 
 ### -VALENTINA ÁLVAREZ 
