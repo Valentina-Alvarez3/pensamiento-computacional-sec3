@@ -81,12 +81,13 @@ Luego:
 - Usé `rect()`, `ellipse()` y `line()`  
 - Apliqué `translate()` y `rotate()` para las figuras inclinadas  
 - Ajusté posiciones manualmente hasta lograr una composición similar  
+## Documentación visual
 
-Ejemplo de código:
+### Imagen original
+![Obra original](./imagenes/obra-original.png)
 
-```javascript
-push();
-translate(x, y);
-rotate(angulo);
-rect(0, 0, ancho, alto);
-pop();
+### Proceso análogo
+![Proceso](./imagenes/proceso-analogo.png)
+
+### Resultado final
+![Resultado](./imagenes/resultado-final.png)
