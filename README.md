@@ -1,3 +1,4 @@
+
 # Solemne I: Recreación de obra en p5.js
 
 ## Sensaciones mixtas (1916)
@@ -36,15 +37,15 @@ El trabajo se desarrolló combinando **metodología análoga y digital**, lo que
 
 Este cruce entre ambos métodos permitió reducir errores y mejorar la fidelidad de la recreación.
 ### Dificultades
--Mantener proporciones exactas entre las figuras
--Traducir correctamente las rotaciones a p5.js
--Ordenar las capas de dibujo
--Ajustar los colores, considerando variaciones de pantalla
+- Mantener proporciones exactas entre las figuras
+- Traducir correctamente las rotaciones a p5.js
+- Ordenar las capas de dibujo
+- Ajustar los colores, considerando variaciones de pantalla
 ### Soluciones
--Combiné medición análoga y digital
--Utilicé push() y pop() para controlar transformaciones
--Organicé el código según orden de dibujo (de fondo a frente)
--Realicé iteraciones constantes comparando con la imagen original
+- Combiné medición análoga y digital
+- Utilicé push() y pop() para controlar transformaciones
+- Organicé el código según orden de dibujo (de fondo a frente)
+- Realicé iteraciones constantes comparando con la imagen original
 
 ### Conclusión
 
@@ -82,12 +83,9 @@ Luego:
 - Apliqué `translate()` y `rotate()` para las figuras inclinadas  
 - Ajusté posiciones manualmente hasta lograr una composición similar  
 ## Documentación visual
-
 ### Imagen original
-![Obra original](./imagenes/obra-original.png)
-
-### Proceso análogo
-![Proceso](./imagenes/proceso-analogo.png)
+![kasimir](https://github.com/user-attachments/assets/a6f4bae4-5711-4a94-b382-eecd77ea37bb)
 
 ### Resultado final
-![Resultado](./imagenes/resultado-final.png)
+<img width="506" height="502" alt="Captura de pantalla 2026-04-09 221131" src="https://github.com/user-attachments/assets/54f60619-429d-473e-873c-6fcfee2b267e" />
+
